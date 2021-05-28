@@ -9,6 +9,11 @@
     font-size: medium;
 }
 
+.logo {
+    object-fit: contain;
+    max-width: 60px;
+}
+
 h5 {
     color: blue;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif

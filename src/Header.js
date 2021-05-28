@@ -1,6 +1,7 @@
 import React from 'react'
 import "./Header.css"
 import {Link} from "react-router-dom"
+import Ethlogo from "./eth-logo.png"
 
 
 function Header() {
@@ -9,7 +10,7 @@ function Header() {
             <div className="header__link">
                 <p>GitHub</p>
                 <p>Docs</p>
-                <img></img>
+                <img src={Ethlogo} className="logo"></img>
                 <p>Wallets</p>
                 <p>Apps</p>
             </div>
