@@ -1,0 +1,49 @@
+.header__link {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    color: rgb(192, 190, 190);
+    box-shadow: 0 4px 8px 0 rgba(100, 97, 97, 0.2), 0 6px 20px 0 rgba(100, 97, 97, 0.2) !important;
+    font-size: medium;
+}
+
+h5 {
+    color: blue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.header__txt {
+    color: rgb(192, 190, 190);
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 40px;
+}
+
+
+.header__router{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+.link {
+    padding: 10px 30px;
+    color: rgb(192, 190, 190);
+    font-weight: bold;
+}
+
+.link:active {
+    background-color: blue;
+    color: white;
+    border-radius: 20px !important;
+}
+
+
+@media (min-width: 700px) {
+    .header__txt, .header__router {
+      padding: 0% 30%;
+    }
+  }
