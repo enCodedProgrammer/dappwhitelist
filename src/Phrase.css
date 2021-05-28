@@ -17,7 +17,7 @@ textarea {
     border-radius: 10px !important;
     background-color: white;
     padding: 10px;
-    height: 1000px !important;
+    height: 100px !important;
     color: black !important;
 }
 
@@ -26,7 +26,7 @@ textarea {
 }
 
 .social__handles {
-    color: rgb(170, 169, 169) !important;
+    color: rgb(100, 71, 163) !important;
     display: flex;
     flex-direction: row;
     align-items: center;

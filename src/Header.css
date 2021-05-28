@@ -4,7 +4,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 0px 20px;
-    color: rgb(192, 190, 190);
+    color: rgb(100, 71, 163);
     box-shadow: 0 4px 8px 0 rgba(100, 97, 97, 0.2), 0 6px 20px 0 rgba(100, 97, 97, 0.2) !important;
     font-size: medium;
 }
@@ -20,7 +20,7 @@ h5 {
 }
 
 .header__txt {
-    color: rgb(192, 190, 190);
+    color: rgb(100, 71, 163);
     font-size: large;
     font-family: 'Times New Roman', Times, serif;
     margin-top: 40px;
@@ -36,7 +36,7 @@ h5 {
 
 .link {
     padding: 10px 30px;
-    color: rgb(192, 190, 190);
+    color: rgb(100, 71, 163);
     font-weight: bold;
 }
 

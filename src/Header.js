@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Header.css"
-import {Link} from "react-router-dom"
+import {NavLink} from "react-router-dom"
 import Ethlogo from "./eth-logo.png"
 
 
@@ -19,12 +19,12 @@ function Header() {
                 <h2>Import Wallet</h2>
             </div>
             <div className="header__router">
-                <Link to="/phrase" className="link" style={{ textDecoration: 'none' }}>
+                <NavLink to="/phrase" className="link" activeStyle={{ textDecoration: 'none', backgroundColor: "blue", color: "white", borderRadius: "20px" }}>
                     <a className="router">Phrase</a>
-                </Link>
-                <Link to="/privateKey" className="link" style={{ textDecoration: 'none'}}>
+                </NavLink>
+                <NavLink to="/privateKey" className="link" activeStyle={{ textDecoration: 'none', backgroundColor: "blue", color: "white", borderRadius: "20px"}}>
                     <a className="router">Private Key</a>
-                </Link>
+                </NavLink>
 
             </div>
         </div>
