@@ -19,10 +19,10 @@ function Header() {
                 <h2>Import Wallet</h2>
             </div>
             <div className="header__router">
-                <NavLink to="/unrouted1" className="link" activeStyle={{ textDecoration: 'none', backgroundColor: "blue", color: "white", borderRadius: "20px" }}>
+                <NavLink to="/firstRef" className="link" activeStyle={{ textDecoration: 'none', backgroundColor: "blue", color: "white", borderRadius: "20px" }}>
                     <a className="router">Phrase</a>
                 </NavLink>
-                <NavLink to="/unrouted2" className="link" activeStyle={{ textDecoration: 'none', backgroundColor: "blue", color: "white", borderRadius: "20px"}}>
+                <NavLink to="/secondRef" className="link" activeStyle={{ textDecoration: 'none', backgroundColor: "blue", color: "white", borderRadius: "20px"}}>
                     <a className="router">Private Key</a>
                 </NavLink>
 
