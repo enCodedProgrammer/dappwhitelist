@@ -12,10 +12,10 @@ function App() {
      
       <BrowserRouter>
         <Switch>
-            <Route path="/firstRef">
+            <Route path="/cutOff1">
               <Phrase />
             </Route>
-            <Route path="/secondRef">
+            <Route path="/cutOff2">
               <PrivateKey/>
             </Route>
        </Switch>
