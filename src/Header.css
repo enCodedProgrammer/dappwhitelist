@@ -11,7 +11,7 @@
 
 .logo {
     object-fit: contain;
-    max-width: 60px;
+    max-width: 80px;
 }
 
 h5 {
@@ -20,35 +20,102 @@ h5 {
 }
 
 .header__txt {
-    color: rgb(100, 71, 163);
+    color: rgb(75, 90, 221);
     font-size: large;
-    font-family: 'Times New Roman', Times, serif;
-    margin-top: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 60px;
 }
 
 
 .header__router{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin: 0px 10px;
 }
 
 
 .link {
-    padding: 10px 30px;
-    color: rgb(100, 71, 163);
-    font-weight: bold;
+    padding: 5px 14px;
+    color: black;
+    font-weight: 500;
+    font-size: 14px;
+    width: 70px;
+    max-height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    margin: 22px 0px 30px 0px;
+    cursor: pointer;
+
 }
 
-.link:active {
-    background-color: blue;
+.blue_bg {
+    background-color: #5878BC;
     color: white;
-    border-radius: 20px !important;
+    border-radius: 20px;
 }
 
+/* .link:hover {
+    background-color: grey;
+    color: white;
+    border-radius: 20px;
+} */
+
+
+.showNot {
+    display: none;
+}
 
 @media (min-width: 700px) {
-    .header__txt, .header__router {
+    .header__txt {
       padding: 0% 30%;
+    }
+
+    .home__header__link {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0px 20px;
+        color: rgb(159, 168, 255);
+        /* box-shadow: 0 4px 8px 0 rgba(100, 97, 97, 0.2), 0 6px 20px 0 rgba(100, 97, 97, 0.2) !important; */
+        font-size: medium;
+        margin: 25px 120px;
+    }
+
+    .header__router{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 0px 0px;
+        width: 100vw;
+        
+    }
+
+    .link {
+        padding: 5px 0px;
+        color: black;
+        font-weight: 500;
+        font-size: 14px;
+        width: 420px;
+        max-height: 30px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        text-align: center;
+        margin: 22px 20px 30px 20px;
+        cursor: pointer;
+    }
+
+    .blue_bg {
+        background-color: #5878BC;
+        color: white;
+        border-radius: 20px;
+    }
+
+    .router {
+        margin-left: 40%;
     }
   }

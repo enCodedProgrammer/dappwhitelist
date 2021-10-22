@@ -1,40 +1,69 @@
+
 .phrase__form {
+    width: 80vw;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: center;
     padding: 0px 20px 20px 20px;
 }
 
-@media (min-width: 700px) {
+/* @media (min-width: 768px) {
     .phrase__form {
       margin: 0% 10%;
     }
+  } */
+
+  @media (min-width: 768px) {
+    textarea {
+        flex: 1;
+        border: 3px solid rgb(216, 216, 216);
+        border-radius: 10px !important;
+        background-color: white;
+        padding: 10px;
+        height: 300px !important;
+        color: black !important;
+        justify-self: center;
+        margin-left: 60px;
+
+    }
+
+    .btn {
+        align-self: center;
+        background-color: #2A498D;
+        width: 60vw;
+        margin-left: 100px !important
+        ;
+    }
   }
 
-
 textarea {
-    flex: 1;
     border: 3px solid rgb(216, 216, 216);
     border-radius: 10px !important;
     background-color: white;
     padding: 10px;
-    height: 100px !important;
+    height: 220px !important;
     color: black !important;
+    justify-self: center;
 }
 
 .phrase__description {
-    color: blue;
+    color: rgb(0, 0, 194);
+    font-size: 14px;
+    font-weight: 600;
 }
 
 .social__handles {
-    color: rgb(100, 71, 163) !important;
+    color: #2A498D !important;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
 }
 
-button {
-    flex: 0;
+.btn {
+    
+    background-color: #2A498D;
+    width: 80vw;
 }
 
 a {

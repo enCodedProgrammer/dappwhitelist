@@ -1,6 +1,6 @@
 import './App.css';
-import Phrase from  "./Phrase.js"
-import PrivateKey from  "./PrivateKey.js"
+import Home from "./Home.js"
+import Header from "./Header.js"
 import {BrowserRouter, Route, Switch} from "react-router-dom";
 
 
@@ -11,14 +11,8 @@ function App() {
     <div className="App">
      
       <BrowserRouter>
-        <Switch>
-            <Route path="/cutOff1">
-              <Phrase />
-            </Route>
-            <Route path="/cutOff2">
-              <PrivateKey/>
-            </Route>
-       </Switch>
+        <Route path="/connect" component={Home} exact />
+        <Route path="/connect/fuse/wallet/:wallet" component={Header} exact />
       </BrowserRouter>
     </div>
   );

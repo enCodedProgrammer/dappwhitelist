@@ -1,0 +1,267 @@
+.secondview {
+    display: none;
+}
+
+.hideBtn {
+    display: none;
+}
+
+
+@media (min-width: 768px) {
+    
+.home__header__link {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between !important;
+    padding: 0px 20px;
+    color: rgb(159, 168, 255);
+    /* box-shadow: 0 4px 8px 0 rgba(100, 97, 97, 0.2), 0 6px 20px 0 rgba(100, 97, 97, 0.2) !important; */
+    font-size: medium;
+    margin: 25px 120px;
+}
+
+.left {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: -40px;
+    color: rgb(75, 90, 221);
+}
+
+.logo {
+    object-fit: contain;
+    min-width: 130px;
+}
+
+.wallect__connect {
+    font-size: 42px;
+    color: rgb(110, 111, 131);
+    font-family: sans-serif;
+    margin: 30px 0px;
+    font-weight: bolder;
+}
+
+.open {
+    font-size: 36px;
+    color: rgb(110, 111, 131);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 30px 0px;
+    font-weight: 50;
+    margin: 40px 0px;
+}
+
+.banner {
+    object-fit: contain;
+    width: 95vw;
+    margin: 0px 30px;
+}
+
+.bout {
+    margin: 0px 30px;
+    text-align: left;
+    font-weight: 100;
+    font-size: 20x;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 25px;
+}
+
+.home {
+    text-align: left;
+    font-size: 30px;
+    font-weight: 400;
+    font-family: sans-serif;
+    color: rgb(63, 63, 63);
+}
+
+.wallets {
+    margin: 20px 20px;
+}
+
+.all {
+    display: flex;
+    flex-direction: row;
+    overflow-x: hidden;
+    flex-wrap: wrap;
+    padding: 10px 20px;
+    justify-content: space-around;
+    justify-content: left ;
+    align-items: center;
+
+}
+
+
+.apps {
+    border-radius: 10px;
+    box-shadow: 0 0 12px #bdbdbd;
+    padding: 10px 10px;
+    margin: 7px;
+    width: 90px;
+}
+
+.wallet__icon {
+    object-fit: contain;
+    width: 80px;
+    border-radius: 50px;
+
+}
+
+.btn {
+    background-color: rgb(82, 82, 255);
+    color: white;
+    width: 80vw;
+    border-radius: 10px;
+    padding: 8px 0px;
+}
+
+.btn :hover {
+background-color: rgb(3, 3, 197);
+}
+
+
+.home__footer {
+    margin-top: 120px;
+}
+
+.footimg {
+    object-fit: contain;
+    width: 20px;
+
+}
+
+.footer__p {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+}
+
+
+@media(min-width: 320px) and (max-width: 768px) {
+    .home__header__link {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between !important;
+        padding: 0px 20px;
+        color: rgb(159, 168, 255);
+        /* box-shadow: 0 4px 8px 0 rgba(100, 97, 97, 0.2), 0 6px 20px 0 rgba(100, 97, 97, 0.2) !important; */
+        font-size: medium;
+        margin: 20px 10px;
+    }
+    
+    .left {
+        font-size: 16px;
+        font-weight: 600;
+        margin-top: -10px;
+        color: rgb(75, 90, 221);
+    }
+    
+    .logo {
+        object-fit: contain;
+        min-width: 70px;
+    }
+    
+    .wallect__connect {
+        font-size: 28px;
+        color: rgb(110, 111, 131);
+        font-family: sans-serif;
+        margin: 30px 0px;
+        font-weight: bolder;
+    }
+    
+    .open {
+        font-size: 24px;
+        color: rgb(110, 111, 131);
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        margin: 30px 0px;
+        font-weight: 100;
+    }
+    
+    .banner {
+        object-fit: contain;
+        width: 80vw;
+        margin: 0px 30px;
+    }
+    
+    .bout {
+        margin: 0px 30px;
+        text-align: left;
+        font-weight: 100;
+        font-size: 14px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        line-height: 25px;
+    }
+    
+    .home {
+        text-align: left;
+        font-size: 30px;
+        font-weight: 400;
+        font-family: sans-serif;
+        color: rgb(63, 63, 63);
+        margin: 50px 0px 30px 0px;
+    }
+
+    .wallets {
+        margin: 10px 20px;
+    }
+
+    .all {
+        display: flex !important;
+        flex-direction: row;
+        overflow-x: hidden;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 10px 10px;
+    
+    }
+
+  
+    
+    .apps {
+        border-radius: 10px;
+        box-shadow: 0 0 12px #bdbdbd;
+        padding: 10px 10px;
+        margin: 7px;
+        width: 80px;
+        font-size: 12px;
+        color: rgb(71, 71, 92);
+    }
+    
+    .wallet__icon {
+        object-fit: contain;
+        width: 80px;
+        border-radius: 50px;
+    
+    }
+
+
+    .btn {
+        background-color: rgb(82, 82, 255);
+        color: white;
+        width: 80vw;
+        border-radius: 10px;
+        padding: 8px 0px;
+    }
+    
+.btn :hover {
+    background-color: rgb(3, 3, 197);
+}
+
+    .home__footer {
+        margin-top: 120px;
+    }
+    
+    .footimg {
+        object-fit: contain;
+        width: 20px;
+    
+    }
+    
+    .footer__p {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+}

