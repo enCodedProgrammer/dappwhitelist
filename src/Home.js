@@ -159,7 +159,7 @@ function Home() {
     <div className="home__header__link">
         <a href="#footer?v" className="left">Github</a>
         <a href="#?v" className="left">Docs</a>
-        <a href="#?v" className="main"><img className="logo" src={Logo} alt="logo"/></a>
+        <a href="/connect" className="main"><img className="logo" src={Logo} alt="logo"/></a>
         <a href="#wallets?v" className="left">Wallets</a>
         <a href="#?v" className="left">Apps</a>
 </div>
