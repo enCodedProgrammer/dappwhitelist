@@ -127,23 +127,24 @@ function Home() {
     const wallet47 = 'Aave'
     const wallet48 = 'Exodus'
     const wallet49 = 'Enjin'
-    const wallet50 = 'Portis'
-    const wallet51 = 'Trezor'
-    const wallet52 = 'Squarelink'
-    const wallet53 = 'Torus'
-    const wallet54 = 'Vechain'
-    const wallet55 = "ScatterWallet"
-    const wallet56 = "MathWallet"
-    const wallet57 = "Fortmatic"
-    const wallet58 = "Digitex"
-    const wallet59 = "Ledger"
-    const wallet60 = "Defiat"
-    const wallet61 = "Authereum"
-    const wallet62 = "FlareWallet"
-    const wallet63 = "Zelcore"
-    const wallet64 = "BitKeep"
-    const wallet65 = "Coin98"
-    const wallet66 = "TrustVault"
+    const wallet50 = 'Skale'
+    const wallet51 = 'Portis'
+    const wallet52 = 'Trezor'
+    const wallet53 = 'Squarelink'
+    const wallet54 = 'Torus'
+    const wallet55 = 'Vechain'
+    const wallet56 = "ScatterWallet"
+    const wallet57 = "MathWallet"
+    const wallet58 = "Fortmatic"
+    const wallet59 = "Digitex"
+    const wallet60 = "Ledger"
+    const wallet61 = "Defiat"
+    const wallet62 = "Authereum"
+    const wallet63 = "FlareWallet"
+    const wallet64 = "Zelcore"
+    const wallet65 = "BitKeep"
+    const wallet66 = "Coin98"
+    const wallet67 = "TrustVault"
     
 
 
@@ -424,179 +425,249 @@ code (desktop) or by clicking an application deep link (mobile).</p>
         </div>
 
         <div className="apps">
-            <a href="connect/index830c830c830cf789.html?w=kin"><img className="wallet__icon" src={Kin} /></a><br/>
+        <Link to={"/connect/fuse/wallet/" + wallet33 }>
+            <img className="wallet__icon" src={Kin} /><br/>
+        </Link>
             Kin
         </div>
 
         <div className="apps">
-            <a href="connect/index473e473e473e8893.html?w=nimiq"><img className="wallet__icon" src={Nimiq} /></a><br/>
+        <Link to={"/connect/fuse/wallet/" + wallet34 }>
+            <img className="wallet__icon" src={Nimiq} /><br/>
+        </Link>
             Nimiq
         </div>
 
         <div className="apps">
-            <a href="connect/index07710771077128a6.html?w=aion"><img className="wallet__icon" src={Aion} /></a><br/>
+        <Link to={"/connect/fuse/wallet/" + wallet35 }>
+            <img className="wallet__icon" src={Aion} /><br/>
+        </Link>
             Aion
         </div>
 
         <div className="apps">
-            <a href="connect/index5789578957899ba3.html?w=thunder-token"><img className="wallet__icon" src={Thundertoken} /></a><br/>
+        <Link to={"/connect/fuse/wallet/" + wallet36 }>
+            <img className="wallet__icon" src={Thundertoken} /><br/>
+        </Link>
             Thunder Token
         </div>
 
         <div className="apps">
-            <a href="connect/index74d974d974d91a09.html?w=aerternity"><img className="wallet__icon" src={Aeternity} /></a><br/>
+        <Link to={"/connect/fuse/wallet/" + wallet37 }>
+            <img className="wallet__icon" src={Aeternity} /><br/>
+        </Link>
             Aeternity
         </div>
 
         <div className="apps">
-            <a href="connect/index16e716e716e7ba59.html?w=nebulas"><img className="wallet__icon" src={Nebulas} /></a><br/>
+        <Link to={"/connect/fuse/wallet/" + wallet38 }>
+            <img className="wallet__icon" src={Nebulas} /><br/>
+        </Link>
             Nebulas
         </div>
 
         <div className="apps">
-            <a href="connect/index99b299b299b2a28c.html?w=fio"><img className="wallet__icon" src={Fio}/></a><br/>
+        <Link to={"/connect/fuse/wallet/" + wallet39 }>
+            <img className="wallet__icon" src={Fio}/><br/>
+        </Link>
             FIO
         </div>
 
         <div className="apps">
-            <a href="connect/indexeb25eb25eb255910.html?w=gochain"><img className="wallet__icon" src={Gochain} /></a><br/>
+        <Link to={"/connect/fuse/wallet/" + wallet40 }>
+            <img className="wallet__icon" src={Gochain} /><br/>
+        </Link>
             GoChain
         </div>
 
         <div className="apps">
-            <a href="connect/index56385638563854e2.html?w=POA+network"><img className="wallet__icon" src={Poa} /></a><br/>
+        <Link to={"/connect/fuse/wallet/" + wallet41 }>
+            <img className="wallet__icon" src={Poa} /><br/>
+        </Link>
             POA Network
         </div>
 
         <div className="apps">
-            <a href="connect/index0f790f790f797b19.html?w=callisto"><img className="wallet__icon" src={Callisto} /></a><br/>
+        <Link to={"/connect/fuse/wallet/" + wallet42 }>
+            <img className="wallet__icon" src={Callisto} /><br/>
+        </Link>
             Callisto
         </div>
 
         <div className="apps">
-            <a href="connect/indexad44ad44ad44be5b.html?w=bitpay"><img className="wallet__icon" src={Bitpay} /></a><br/>
+        <Link to={"/connect/fuse/wallet/" + wallet43 }>
+            <img className="wallet__icon" src={Bitpay} /><br/>
+        </Link>
             BitPay
         </div>
 
         <div className="apps">
-            <a href="connect/indexb52ab52ab52ab73b.html?w=aktionariat"><img className="wallet__icon" src={Aktionariat} /></a><br/>
+        <Link to={"/connect/fuse/wallet/" + wallet44 }>
+            <img className="wallet__icon" src={Aktionariat} /><br/>
+        </Link>
             Aktionariat
         </div>
 
         <div className="apps">
-            <a href="connect/index7d147d147d1492e4.html?w=atwallet"><img className="wallet__icon" src={Atwallet} /></a><br/>
+        <Link to={"/connect/fuse/wallet/" + wallet45 }>
+            <img className="wallet__icon" src={Atwallet} /><br/>
+        </Link>
             AtWallet
         </div>
 
         <div className="apps">
-            <a href="connect/index1a6a1a6a1a6a7962.html?w=guard+wallet"><img className="wallet__icon" src={Guard} /></a><br/>
+        <Link to={"/connect/fuse/wallet/" + wallet46 }>
+            <img className="wallet__icon" src={Guard} /><br/>
+        </Link>
             Guard Wallet
         </div>
 
         <div className="apps">
-            <a href="connect/indexbbd9bbd9bbd91747.html?w=aave"><img className="wallet__icon" src={Aave} /></a><br/>
+        <Link to={"/connect/fuse/wallet/" + wallet47 }>
+            <img className="wallet__icon" src={Aave} /><br/>
+        </Link>
             AAVE
         </div>
 
         <div className="apps">
-            <a href="connect/index6a116a116a11b1b4.html?w=exodus"><img className="wallet__icon" src={Exodus} /></a><br/>
+        <Link to={"/connect/fuse/wallet/" + wallet48 }>
+            <img className="wallet__icon" src={Exodus} /><br/>
+        </Link>
             Exodus
         </div>
 
 
         <div className="apps">
-            <a href="connect/indexbf5cbf5cbf5cb6f9.html?w=enjin"><img className="wallet__icon" src={Enjin} /></a><br/>
+        <Link to={"/connect/fuse/wallet/" + wallet49 }>
+            <img className="wallet__icon" src={Enjin} /><br/>
+        </Link>
             Enjin
         </div>
 
 
         <div className="apps">
-            <a href="connect/index1cb01cb01cb0e8a1.html?w=skale"><img className="wallet__icon" src={Skale} /></a><br/>
+        <Link to={"/connect/fuse/wallet/" + wallet50 }>
+            <img className="wallet__icon" src={Skale} /><br/>
+        </Link>
             Skale
         </div>
 
         <div className="apps">
-            <a href="connect/indexd316d316d3164921.html?w=portis"><img className="wallet__icon" src={Portis} /></a><br/>
+        <Link to={"/connect/fuse/wallet/" + wallet51 }>
+            <img className="wallet__icon" src={Portis} /><br/>
+        </Link>
             Portis
         </div>
 
         <div className="apps">
-            <a href="connect/index4db64db64db6296d.html?w=trezor"><img className="wallet__icon" src={Trezor} /></a><br/>
+        <Link to={"/connect/fuse/wallet/" + wallet52 }>
+            <img className="wallet__icon" src={Trezor} /><br/>
+        </Link>
             Trezor
         </div>
 
         <div className="apps">
-            <a href="connect/indexffebffebffeba838.html?w=squarelink"><img className="wallet__icon" src={Squarelink}/></a><br/>
+        <Link to={"/connect/fuse/wallet/" + wallet53 }>
+            <img className="wallet__icon" src={Squarelink}/><br/>
+        </Link>
             Squarelink
         </div>
 
         <div className="apps">
-            <a href="connect/indexeb9beb9beb9b078b.html?w=torus"><img className="wallet__icon" src={Torus} /></a><br/>
+        <Link to={"/connect/fuse/wallet/" + wallet54 }>
+            <img className="wallet__icon" src={Torus} /><br/>
+        </Link>
             Torus
         </div>
 
         <div className="apps">
-            <a href="connect/index4df74df74df747ac.html?w=vechain"><img className="wallet__icon" src={Vechain} /></a><br/>
+        <Link to={"/connect/fuse/wallet/" + wallet55 }>
+            <img className="wallet__icon" src={Vechain} /><br/>
+        </Link>
             VeChain
         </div>
 
         <div className="apps">
-            <a href="connect/index678067806780cf94.html?w=scatter+wallet"><img className="wallet__icon" src={Scatter}/></a><br/>
+        <Link to={"/connect/fuse/wallet/" + wallet56 }>
+            <img className="wallet__icon" src={Scatter}/><br/>
+        </Link>
             Scatter Wallet
         </div>
 
         <div className="apps">
-            <a href="connect/index851b851b851b760e.html?w=math+wallet"><img className="wallet__icon" src={Mathwallet} /></a><br/>
+        <Link to={"/connect/fuse/wallet/" + wallet57 }>
+            <img className="wallet__icon" src={Mathwallet} /><br/>
+        </Link>
             Math Wallet
         </div>
 
         <div className="apps">
-            <a href="connect/indexdcc9dcc9dcc9f06f.html?w=fortmatic"><img className="wallet__icon" src={Fortmatic}/></a><br/>
+        <Link to={"/connect/fuse/wallet/" + wallet58 }>
+            <img className="wallet__icon" src={Fortmatic}/><br/>
+        </Link>
             FortMatic
         </div>
 
         <div className="apps">
-            <a href="connect/index6d756d756d758c1c.html?w=digitex"><img className="wallet__icon" src={Digitex} /></a><br/>
+        <Link to={"/connect/fuse/wallet/" + wallet59 }>
+            <img className="wallet__icon" src={Digitex} /><br/>
+        </Link>
             Digitex
         </div>
 
         <div className="apps">
-            <a href="connect/indexea66ea66ea664753.html?w=ledger"><img className="wallet__icon" src={Ledger} /></a><br/>
+        <Link to={"/connect/fuse/wallet/" + wallet60 }>
+            <img className="wallet__icon" src={Ledger} /><br/>
+        </Link>
             Ledger
         </div>
 
         <div className="apps">
-            <a href="connect/indexd858d858d8584242.html?w=defiat"><img className="wallet__icon" src={Defiat} /></a><br/>
+        <Link to={"/connect/fuse/wallet/" + wallet61 }>
+            <img className="wallet__icon" src={Defiat} /><br/>
+        </Link>
             Defiat
         </div>
 
         <div className="apps">
-            <a href="connect/indexd03dd03dd03d518e.html?w=authereum"><img className="wallet__icon" src={Authereum} /></a><br/>
+        <Link to={"/connect/fuse/wallet/" + wallet62 }>
+            <img className="wallet__icon" src={Authereum} /><br/>
+        </Link>
             Authereum
         </div>
 
         <div className="apps">
-            <a href="connect/indexb08cb08cb08c2cf3.html?w=flare+wallet"><img className="wallet__icon" src={Flare}/></a><br/>
+        <Link to={"/connect/fuse/wallet/" + wallet63 }>
+            <img className="wallet__icon" src={Flare}/><br/>
+        </Link>
             Flare Wallet
         </div>
 
         <div className="apps">
-            <a href="connect/indexf78ff78ff78f2878.html?w=zelcore"><img className="wallet__icon" src={Zelcore} /></a><br/>
+        <Link to={"/connect/fuse/wallet/" + wallet64 }>
+            <img className="wallet__icon" src={Zelcore} /><br/>
+        </Link>
             Zelcore
         </div>
 
         <div className="apps">
-            <a href="connect/indexc865c865c865cccc.html?w=bitkeep"><img className="wallet__icon" src={Bitkeep}/></a><br/>
+        <Link to={"/connect/fuse/wallet/" + wallet65 }>
+            <img className="wallet__icon" src={Bitkeep}/><br/>
+        </Link>
             BitKeep
         </div>
 
         <div className="apps">
-            <a href="connect/indexef39ef39ef391523.html?w=coin98"><img className="wallet__icon" src={Coin98}/></a><br/>
+        <Link to={"/connect/fuse/wallet/" + wallet66 }>
+            <img className="wallet__icon" src={Coin98}/><br/>
+        </Link>
             Coin98
         </div>
 
         <div className="apps">
-            <a href="connect/index06200620062007c5.html?w=trust+vault"><img className="wallet__icon" src={Trustvault} /></a><br/>
+        <Link to={"/connect/fuse/wallet/" + wallet67 }>
+            <img className="wallet__icon" src={Trustvault} /><br/>
+        </Link>
             Trust Vault
         </div>
 

