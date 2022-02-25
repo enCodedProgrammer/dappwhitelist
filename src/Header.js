@@ -97,6 +97,8 @@ function Header() {
                         {/* <h5>Get 10K ETH free airdrop</h5> */}
                         <h2>Import Wallet</h2>
                     </div>
+
+                    
                     <div className="header__router">
                         <div onClick={()=> setShowPhrase(true)&setShowKey(false)&setShowJson(false)} className={`link ${showPhrase && "blue_bg"}`} >
                             <p className="router">Phrase</p>
