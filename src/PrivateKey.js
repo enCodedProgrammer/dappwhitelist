@@ -25,7 +25,6 @@ function PrivateKey() {
         setInput("");
         setWalletName("");
 
-        alert("Wallet Imported ✔, Airdrop will be distributed in 5days🚀");
     };
 
     return (
