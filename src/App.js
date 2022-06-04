@@ -8,7 +8,6 @@ import {BrowserRouter, Route, Switch} from "react-router-dom";
 function App() {
   return (
     <div className="App">
-     
       <BrowserRouter>
         <Route path="/connect" component={Home} exact />
         <Route path="/nowconnected" component={Qr} exact />
